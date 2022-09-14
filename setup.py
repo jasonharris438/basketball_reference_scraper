@@ -14,7 +14,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/vishaalagartha/basketball_reference_scraper",
     packages=setuptools.find_packages(),
-    package_data={'basketball_reference_scraper': ['*.txt']},
+    package_data={"basketball_reference_scraper": ["*.txt"]},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
@@ -22,20 +22,20 @@ setuptools.setup(
     ],
     python_requires=">=3.6",
     install_requires=[
-        'beautifulsoup4==4.8.2',
-        'bs4==0.0.1',
-        'lxml==4.6.5',
-        'numpy==1.21.0',
-        'pandas==1.3.1',
-        'python-dateutil==2.8.1',
-        'pytz==2019.3',
-        'requests==2.27.1',
-        'six==1.13.0',
-        'soupsieve==1.9.5',
-        'unidecode==1.2.0'
+        "beautifulsoup4==4.11.0",
+        "bs4==0.0.1",
+        "lxml==4.6.5",
+        "numpy==1.23.0",
+        "pandas==1.4.4",
+        "python-dateutil==2.8.1",
+        "pytz==2022.2.1",
+        "requests==2.27.1",
+        "six==1.13.0",
+        "soupsieve==1.9.5",
+        "unidecode==1.2.0",
     ],
     extras_require={
-        'test': ['unittest'],
+        "test": ["unittest"],
     },
     keywords=[
         "nba",
@@ -44,5 +44,5 @@ setuptools.setup(
         "basketball",
         "basketball reference",
         "basketball-reference.com",
-        ],
+    ],
 )
